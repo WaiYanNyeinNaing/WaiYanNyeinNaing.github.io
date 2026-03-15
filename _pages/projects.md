@@ -2,64 +2,45 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A curated showcase of my research and engineering projects in AI, Machine Learning, and Agentic Systems.
 nav: true
-nav_order: 5
+nav_order: 1
 display_categories: [work, fun]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+  {% assign sorted_projects = site.projects | sort: "importance" %}
+  
+  <ul class="post-list">
     {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+      <li>
+        <div class="row">
+          <div class="col-sm-9">
+            <h3>
+              <a class="post-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>
+            </h3>
+            <p>{{ project.description }}</p>
+            <p class="post-meta">
+              {% if project.date %}
+                {{ project.date | date: '%B %d, %Y' }}
+              {% endif %}
+              {% if project.github %}
+                &nbsp; &middot; &nbsp; 
+                <a href="{{ project.github }}" target="_blank" class="text-muted">
+                  <i class="fa-brands fa-github"></i> github
+                </a>
+              {% endif %}
+            </p>
+          </div>
+          {% if project.img %}
+            <div class="col-sm-3">
+              <img class="card-img" src="{{ project.img | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
+            </div>
+          {% endif %}
+        </div>
+      </li>
     {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+  </ul>
 </div>

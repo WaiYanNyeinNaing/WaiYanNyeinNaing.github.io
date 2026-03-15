@@ -4,7 +4,7 @@ permalink: /patents/
 title: patents
 description: A portfolio of published and pending patents in AI, computer vision, and diagnostic systems.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <div class="patents">

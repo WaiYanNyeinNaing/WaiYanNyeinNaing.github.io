@@ -40,12 +40,12 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
+    <!-- Latest Projects -->
+    {% if page.latest_projects and page.latest_projects.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">latest projects</a>
       </h2>
-      {% include news.liquid limit=true %}
+      {% include latest_projects.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
