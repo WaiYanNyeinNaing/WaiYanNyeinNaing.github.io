@@ -8,24 +8,24 @@ cv:
 
   social_networks:
     - network: X
-      username: 
+      username:
     - network: GitHub
       username: WaiYanNyeinNaing
     - network: LinkedIn
       username: wai-yan-nyein-naing
 
   address:
-    street: 
+    street:
     city: Mount Prospect
     region: Illinois
-    postalCode: 
+    postalCode:
     countryCode: US
 
   sections:
     Education:
       - institution: International Islamic University Malaysia (IIUM)
         location: Malaysia
-        url: 
+        url:
         area: Artificial Intelligence
         studyType: Ph.D. in Engineering
         start_date: ""
@@ -73,16 +73,16 @@ cv:
           - Wai Yan Nyein Naing, et al.
         publisher: International Journal of Advanced and Applied Sciences
         releaseDate: 2019-01-01
-        url: 
-        summary: 
-      
+        url:
+        summary:
+
       - title: "Glass-Break Detection Using Deep Neural Networks and Acoustic Features"
         authors:
           - Wai Yan Nyein Naing, et al.
-        publisher: 
+        publisher:
         releaseDate: 2019-01-01
-        url: 
-        summary: 
+        url:
+        summary:
 
     Patents:
       - name: "Device and method for detecting foreign object debris"
@@ -143,12 +143,12 @@ cv:
         level: Expert
         icon: fa-solid fa-network-wired
         keywords: "LLMs, Multi-Agent Systems, GenAI powered Knowledge Graph, Agentic RAG, MCP (Model Context Protocol), A2A (Agent to Agent Protocol)"
-      
+
       - name: Machine Learning & Computer Vision
         level: Expert
         icon: fa-solid fa-eye
         keywords: "Deep CNN, Object Recognition, Tracking, Segmentation, Representation Learning, Signal Processing, 2D/3D Image Segmentation, Depth Estimation, GANs, Super Resolution"
-      
+
       - name: Frameworks & Engineering
         level: Advanced
         icon: fa-solid fa-code

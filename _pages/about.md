@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Senior AI Innovation Expert & Applied Research Scientist (Ph.D.) with 8+ years of experience building and deploying production-grade agentic AI systems in safety- and compliance-critical environments. 
+Senior AI Innovation Expert & Applied Research Scientist (Ph.D.) with 8+ years of experience building and deploying production-grade agentic AI systems in safety- and compliance-critical environments.
 
-Led large-scale AI platforms including Bosch Super Technician, Ask Bosch, and enterprise risk intelligence systems. Expert in LLMs, multi-agent systems, multimodal AI, and computer vision, with a proven record of taking ideas from concept to global deployment and delivering multi-million-dollar business impact. 
+Led large-scale AI platforms including Bosch Super Technician, Ask Bosch, and enterprise risk intelligence systems. Expert in LLMs, multi-agent systems, multimodal AI, and computer vision, with a proven record of taking ideas from concept to global deployment and delivering multi-million-dollar business impact.
 
 Recognized innovator with 10+ patents and 10+ publications, experienced in designing robust AI architectures and mentoring teams.
