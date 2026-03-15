@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior AI Innovation Expert @ <a href="https://www.bosch.com/">Robert Bosch LLC</a>. Mount Prospect, IL. <a href="mailto:waiyan.nn18@gmail.com">Email</a>.
+subtitle: Senior AI Engineer / Senior Research Scientist @ <a href="https://www.bosch.com/">Robert Bosch LLC</a>. Mount Prospect, IL. <a href="mailto:waiyan.nn18@gmail.com">Email</a>.
 
 profile:
   align: right
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Senior AI Innovation Expert & Applied Research Scientist (Ph.D.) with 8+ years of experience building and deploying production-grade agentic AI systems in safety- and compliance-critical environments.
+Senior AI Engineer / Senior Research Scientist (Ph.D.) with 8+ years of experience building and deploying production-grade agentic AI systems in safety- and compliance-critical environments.
 
 Led large-scale AI platforms including Bosch Super Technician, Ask Bosch, and enterprise risk intelligence systems. Expert in LLMs, multi-agent systems, multimodal AI, and computer vision, with a proven record of taking ideas from concept to global deployment and delivering multi-million-dollar business impact.
 
