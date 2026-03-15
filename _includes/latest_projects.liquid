@@ -2,12 +2,12 @@
   {% if site.projects != blank %}
     {% assign projects_size = site.projects | size %}
     <div
-      class="table-responsive"
+      class="news-list"
       {% if include.limit and page.latest_projects.scrollable and projects_size > 3 %}
-        style="max-height: 60vw"
+        style="max-height: 60vw; overflow-y: auto;"
       {% endif %}
     >
-      <table class="table table-sm table-borderless">
+      <ul class="post-list" style="margin-bottom: 0;">
         {% assign projects = site.projects | sort: "importance" %}
         {% if include.limit and page.latest_projects.limit %}
           {% assign projects_limit = page.latest_projects.limit %}
@@ -15,18 +15,32 @@
           {% assign projects_limit = projects_size %}
         {% endif %}
         {% for item in projects limit: projects_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-            <td>
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          <li style="border-bottom: 1px solid var(--global-divider-color); padding: 1.5rem 0;">
+            <div class="row">
+              <div class="{% if item.img %}col-sm-9{% else %}col-sm-12{% endif %}">
+                <h3>
+                  <a class="post-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                </h3>
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;">{{ item.description }}</p>
+                <p class="post-meta">
+                  {{ item.date | date: '%b %d, %Y' }}
+                  {% if item.github %}
+                    &nbsp; &middot; &nbsp; 
+                    <a href="{{ item.github }}" target="_blank" class="text-muted">
+                      <i class="fa-brands fa-github"></i> github
+                    </a>
+                  {% endif %}
+                </p>
+              </div>
+              {% if item.img %}
+                <div class="col-sm-3">
+                  <img class="card-img" src="{{ item.img | relative_url }}" style="object-fit: cover; height: 100px; width: 100%;" alt="image">
+                </div>
               {% endif %}
-            </td>
-          </tr>
+            </div>
+          </li>
         {% endfor %}
-      </table>
+      </ul>
     </div>
   {% else %}
     <p>No projects so far...</p>

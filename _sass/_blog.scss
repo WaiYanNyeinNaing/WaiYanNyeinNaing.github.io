@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 .blog-img-small {
   max-width: 70%;
   margin: 0 auto;
@@ -19,7 +21,7 @@
   }
 
   h2 {
-    font-size: 1.1rem;
+    font-size: v.$font-size-description;
     color: var(--global-text-color-light);
     margin-top: 0.5rem;
   }
@@ -58,18 +60,28 @@
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    h3 {
+      font-size: 1.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
 
     .post-meta {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      font-size: 0.95rem;
       margin-bottom: 0;
     }
 
     .post-tags {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      font-size: 0.95rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
     }
@@ -165,7 +177,8 @@
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1.1rem;
+  color: var(--global-text-color-light);
 
   a {
     color: inherit;
