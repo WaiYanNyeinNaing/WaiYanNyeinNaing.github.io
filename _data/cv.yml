@@ -84,30 +84,58 @@ cv:
         url: 
         summary: 
 
-    Patents (Selected):
-      - name: "AI-driven remote diagnostics and vehicle calibration"
-        date: 
-        issuer: US applications R418941, R418942
+    Patents:
+      - name: "Device and method for detecting foreign object debris"
+        date: "2022"
+        issuer: "EP3951644A1"
         icon: fa-solid fa-file-contract
-
-      - name: "Multi-agent AI with knowledge graphs"
-        date: 
-        issuer: US application 19/373,898
+        url: "https://patents.google.com/patent/EP3951644A1/en"
+      - name: "System, method, and computer executable code for organism quantification"
+        date: "2022"
+        issuer: "WO2022171267A1"
         icon: fa-solid fa-file-contract
-
-      - name: "AI-based airport runway foreign object detection"
-        date: 2021-08-03
-        issuer: Patent filed
+        url: "https://patents.google.com/patent/WO2022171267A1/en"
+      - name: "Terahertz radiation based method and system for identification of objects and prediction of object class"
+        date: "2023"
+        issuer: "WO2023143702A1"
         icon: fa-solid fa-file-contract
-        
-      - name: "AI-based organism quantification (aquaculture)"
-        date: 2021-02-09
-        issuer: EP2021/053025
+        url: "https://patents.google.com/patent/WO2023143702A1/en"
+      - name: "System and method for identification of object and prediction of object class"
+        date: "2023"
+        issuer: "WO2023143704A1"
         icon: fa-solid fa-file-contract
-
-      - name: "Terahertz-based waste sorting and monitoring"
-        date: 2022-01-01
-        issuer: Multiple patent families filed (EU, PCT, Germany)
+        url: "https://patents.google.com/patent/WO2023143704A1/en"
+      - name: "A system for identifying an object, and methods for manufacturing and fitting a reflector on the system"
+        date: "2023"
+        issuer: "WO2023143705A1"
+        icon: fa-solid fa-file-contract
+        url: "https://patents.google.com/patent/WO2023143705A1/en"
+      - name: "Computer-assisted method and system for sorting objects"
+        date: "2023"
+        issuer: "WO2023143706A1"
+        icon: fa-solid fa-file-contract
+        url: "https://patents.google.com/patent/WO2023143706A1/en"
+      - name: "System and method for monitoring performance of an object classification system"
+        date: "2023"
+        issuer: "WO2023217374A1"
+        icon: fa-solid fa-file-contract
+        url: "https://patents.google.com/patent/WO2023217374A1/en"
+      - name: "Computer-implemented method and system for labeling objects"
+        date: "2023"
+        issuer: "WO2023217375A1"
+        icon: fa-solid fa-file-contract
+        url: "https://patents.google.com/patent/WO2023217375A1/en"
+      - name: "Sorting container, sorting system, and sorting container arrangement"
+        date: "2022"
+        issuer: "DE2022/100481"
+        icon: fa-solid fa-file-contract
+      - name: "Multi-agentic AI system utilizing knowledge graphs to facilitate natural language collaboration"
+        date: "2025"
+        issuer: "19/373,898"
+        icon: fa-solid fa-file-contract
+      - name: "Remote diagnostic system having artificial intelligence agent"
+        date: "2025"
+        issuer: "TBD (R418941, R418942)"
         icon: fa-solid fa-file-contract
 
     Skills:
