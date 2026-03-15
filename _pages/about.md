@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Senior AI Innovation Expert @ <a href="https://www.bosch.com/">Robert Bosch LLC</a>. Mount Prospect, IL. <a href="mailto:waiyan.nn18@gmail.com">Email</a>.
 
 profile:
   align: right

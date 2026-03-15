@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - WaiYanNyeinNaing
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - WaiYanNyeinNaing/WaiYanNyeinNaing.github.io
+  - WaiYanNyeinNaing/Burmese_GPT
+  - WaiYanNyeinNaing/Roadmap_to_GenAI
+  - WaiYanNyeinNaing/Real-Time-Emotional-Recognition-with-Deep-Learning
+  - WaiYanNyeinNaing/Online-Public-Myanmar-Newspaper-Database-
+  - WaiYanNyeinNaing/Real-Time-Gender-Classification-with-Deep-Learning
