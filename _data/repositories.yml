@@ -4,9 +4,10 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - WaiYanNyeinNaing/WaiYanNyeinNaing.github.io
+  - WaiYanNyeinNaing/rads-agent
   - WaiYanNyeinNaing/Burmese_GPT
   - WaiYanNyeinNaing/Roadmap_to_GenAI
-  - WaiYanNyeinNaing/Real-Time-Emotional-Recognition-with-Deep-Learning
+  - WaiYanNyeinNaing/imitation-learning-lego-spike
+  - WaiYanNyeinNaing/AI_Lung_Infection_Disease_Detection
   - WaiYanNyeinNaing/Online-Public-Myanmar-Newspaper-Database-
-  - WaiYanNyeinNaing/Real-Time-Gender-Classification-with-Deep-Learning
+  - WaiYanNyeinNaing/WaiYanNyeinNaing.github.io
