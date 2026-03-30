@@ -19,10 +19,6 @@ latest_publications:
   enabled: true # includes the latest publication
   limit: 1 # number of papers to display
 
-latest_publications:
-  enabled: true # includes the latest publication
-  limit: 1 # number of papers to display
-
 latest_projects:
   enabled: true # includes a list of projects
   scrollable: true # adds a vertical scroll bar if there are more than 3 items
