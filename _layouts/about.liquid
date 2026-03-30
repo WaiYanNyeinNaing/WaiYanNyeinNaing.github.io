@@ -67,13 +67,7 @@ layout: default
     <!-- Latest publications -->
     {% if page.latest_publications and page.latest_publications.enabled %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">
-          {%- if page.latest_publications.title -%}
-            {{ page.latest_publications.title }}
-          {%- else -%}
-            latest publication
-          {%- endif -%}
-        </a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">latest publication</a>
       </h2>
       {% include latest_publications.liquid %}
     {% endif %}
