@@ -14,7 +14,7 @@ ninja.data = [{
           description: "Fine-Tuning a Small Language Model for Burmese Coding with Language-Aware Evaluation",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_paper/";
+            window.location.href = "/paper/";
           },
         },{id: "nav-projects",
           title: "projects",
