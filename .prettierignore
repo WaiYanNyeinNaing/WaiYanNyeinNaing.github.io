@@ -1,1 +1,29 @@
+_site/
+.bundle/
+.DS_store
+.idea/
+.jekyll-cache/
+.jekyll-metadata
+.ruby-version
+.sass-cache/
+.tweet-cache/
+.venv/
+assets/libs/
+assets/rendercv/rendercv_output/
+Gemfile.lock
+node_modules/
+vendor/
+Person_data/
+*.py
+out.log
+
+# Jekyll/Liquid Scripts, Styles, and Data
+_scripts/
+assets/
+_sass/
+_data/
+lighthouse_results/
+bin/
+
+# Specific file conflicts
 CUSTOMIZE.md
