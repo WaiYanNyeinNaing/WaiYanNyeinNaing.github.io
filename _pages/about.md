@@ -12,8 +12,12 @@ profile:
     <p>Mount Prospect, IL, USA</p>
     <p>waiyan.nn18@gmail.com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+latest_publications:
+  enabled: true # includes the latest publication
+  limit: 1 # number of papers to display
 
 latest_projects:
   enabled: true # includes a list of projects
