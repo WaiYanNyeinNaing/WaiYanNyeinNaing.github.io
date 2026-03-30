@@ -8,7 +8,7 @@
       {% endif %}
     >
       <ul class="post-list" style="margin-bottom: 0;">
-        {% assign projects = site.projects | sort: "importance" %}
+        {% assign projects = site.projects | sort: 'importance' %}
         {% if include.limit and page.latest_projects.limit %}
           {% assign projects_limit = page.latest_projects.limit %}
         {% else %}
@@ -25,10 +25,8 @@
                 <p class="post-meta">
                   {{ item.date | date: '%b %d, %Y' }}
                   {% if item.github %}
-                    &nbsp; &middot; &nbsp; 
-                    <a href="{{ item.github }}" target="_blank" class="text-muted">
-                      <i class="fa-brands fa-github"></i> github
-                    </a>
+                    &nbsp; &middot; &nbsp;
+                    <a href="{{ item.github }}" target="_blank" class="text-muted"> <i class="fa-brands fa-github"></i> github </a>
                   {% endif %}
                 </p>
               </div>

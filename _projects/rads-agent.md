@@ -11,6 +11,7 @@ github: https://github.com/WaiYanNyeinNaing/rads-agent
 `rads-agent` is an autonomous system that transforms raw, unorganized datasets into a functional Retrieval-Augmented Data Science (RADS) cluster.
 
 By functioning as a zero-tuning Meta-Agent layer, the system autonomously:
+
 - Analyzes raw tabular data and telemetry for latent structure.
 - Builds dynamic semantic layers tailored to the specific context.
 - Generates algorithms and retrieval patterns for rapid data intelligence.
@@ -54,8 +55,8 @@ The architecture is driven by four core components:
 2. **Embedded Analytical Engine (`database_manager.py`):** Uses **DuckDB** for high-performance, in-process SQL querying. It automatically mounts raw CSVs as "Bronze" views using DuckDB’s `read_csv_auto` function. Because DuckDB uses a vectorized execution engine, it processes complex aggregations over millions of rows in milliseconds—running completely local without the need for external database servers.
 3. **Semantic Modeling (`semantic_engine.py`):** Profiles a sample of the raw data and prompts the LLM to generate a structured JSON schema mapping dimensions and measures. It then compiles DuckDB-compatible SQL to build clean, aggregated "Gold" views. This semantic layer provides the LLM with the exact structure and context it needs for accurate query generation.
 4. **Execution & UI (`app.py` & `eda_agent.py`):** A Gradio frontend exposing a dual-interface:
-   * **Semantic Chat:** Translates user questions into precise DuckDB SQL, executing them against the Gold views via LLM tool-calling for deterministic data retrieval.
-   * **EDA Agent:** Writes and executes dynamic Python code (`pandas`, `matplotlib`, `seaborn`) locally via `exec()`. It intercepts rendering functions (like `plt.show()`) to capture charts as base64 strings, streaming visualizations directly back to the chat interface.
+   - **Semantic Chat:** Translates user questions into precise DuckDB SQL, executing them against the Gold views via LLM tool-calling for deterministic data retrieval.
+   - **EDA Agent:** Writes and executes dynamic Python code (`pandas`, `matplotlib`, `seaborn`) locally via `exec()`. It intercepts rendering functions (like `plt.show()`) to capture charts as base64 strings, streaming visualizations directly back to the chat interface.
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm mt-3 mt-md-0 text-center">
@@ -80,4 +81,3 @@ The architecture is driven by four core components:
 By combining the vectorized speed of DuckDB with the code-generation capabilities of Gemini, `rads-agent` reduces the time-to-insight for new datasets from hours to minutes. It provides developers and data practitioners with a zero-infrastructure, automated Medallion architecture that runs entirely on a local machine, transforming static files into a fully conversational data cluster.
 
 **Repository:** <a href="https://github.com/WaiYanNyeinNaing/rads-agent" target="_blank">WaiYanNyeinNaing/rads-agent</a>
-
