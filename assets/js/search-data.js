@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-burmese-coder-4b",
-          title: "Burmese-Coder-4B",
-          description: "Fine-Tuning a Small Language Model for Burmese Coding with Language-Aware Evaluation",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/paper/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
           description: "A curated showcase of my research and engineering projects in AI, Machine Learning, and Agentic Systems.",
           section: "Navigation",
