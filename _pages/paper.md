@@ -17,7 +17,7 @@ nav_order: 1
 
   <article>
     <div class="publications">
-      {% bibliography --query @*[id=naing2026burmesecoder] %}
+      {% bibliography --entry naing2026burmesecoder %}
     </div>
 
     <div class="abstract">
