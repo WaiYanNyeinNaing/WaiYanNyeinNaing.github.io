@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /_paper/
+permalink: /paper/
 title: Burmese-Coder-4B
 description: Fine-Tuning a Small Language Model for Burmese Coding with Language-Aware Evaluation
 nav: true
