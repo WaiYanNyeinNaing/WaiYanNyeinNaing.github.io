@@ -254,7 +254,16 @@
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
       {% if entry.dataset %}
-        <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button">Dataset</a>
+        <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button">Dataset (HumanEval)</a>
+      {% endif %}
+      {% if entry.dataset_mbpp %}
+        <a href="{{ entry.dataset_mbpp }}" class="btn btn-sm z-depth-0" role="button">Dataset (MBPP)</a>
+      {% endif %}
+      {% if entry.model %}
+        <a href="{{ entry.model }}" class="btn btn-sm z-depth-0" role="button">Model (v4)</a>
+      {% endif %}
+      {% if entry.model_gguf %}
+        <a href="{{ entry.model_gguf }}" class="btn btn-sm z-depth-0" role="button">Model (GGUF)</a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
