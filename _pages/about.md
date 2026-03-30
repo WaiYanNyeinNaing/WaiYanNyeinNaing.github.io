@@ -18,6 +18,7 @@ social: true # includes social icons at the bottom of the page
 latest_publications:
   enabled: true # includes the latest publication
   limit: 1 # number of papers to display
+  title: "Burmese-Coder-4B: Fine-Tuning a Small Language Model for Burmese Coding with Language-Aware Evaluation"
 
 latest_projects:
   enabled: true # includes a list of projects
