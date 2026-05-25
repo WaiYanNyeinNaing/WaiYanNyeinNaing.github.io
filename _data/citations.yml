@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-24'
+  last_updated: '2026-05-25'
 papers:
   KwlI1BwAAAAJ:2osOgNQ5qMEC:
     citations: 69
@@ -46,6 +46,6 @@ papers:
     title: Advances in automatic tuberculosis detection in chest x-ray images
     year: '2014'
   KwlI1BwAAAAJ:zYLM7Y9cAGgC:
-    citations: 22
+    citations: 23
     title: Rice grading using image processing
     year: '2015'
