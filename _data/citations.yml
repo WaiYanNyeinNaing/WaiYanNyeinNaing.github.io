@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-25'
+  last_updated: '2026-06-08'
 papers:
   KwlI1BwAAAAJ:2osOgNQ5qMEC:
-    citations: 69
+    citations: 70
     title: Forecasting of monthly temperature variations using random forests
     year: '2015'
   KwlI1BwAAAAJ:9yKSN-GCB0IC:
@@ -29,6 +29,10 @@ papers:
     citations: 2
     title: Glass breaks detection system using deep auto-encoders with fuzzy rules induction algorithm
     year: '2019'
+  KwlI1BwAAAAJ:_FxGoFyzp5QC:
+    citations: 0
+    title: RICE GRADING USING IMAGE PROCESSING
+    year: '2006'
   KwlI1BwAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: Forecasting of monthly temperature variations using random forests
