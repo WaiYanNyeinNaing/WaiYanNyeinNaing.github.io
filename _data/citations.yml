@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-20'
 papers:
   KwlI1BwAAAAJ:2osOgNQ5qMEC:
     citations: 71
@@ -24,7 +24,7 @@ papers:
   KwlI1BwAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: Vision-Based Estimation of Altitude from Aerial Images
-    year: '2006'
+    year: '2015'
   KwlI1BwAAAAJ:YsMSGLbcyi4C:
     citations: 2
     title: Glass breaks detection system using deep auto-encoders with fuzzy rules induction algorithm
