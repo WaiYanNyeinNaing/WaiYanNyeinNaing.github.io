@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-09-02'
 papers:
   KwlI1BwAAAAJ:2osOgNQ5qMEC:
-    citations: 71
+    citations: 69
     title: Forecasting of monthly temperature variations using random forests
     year: '2015'
   KwlI1BwAAAAJ:9yKSN-GCB0IC:
-    citations: 6
+    citations: 5
     title: Vision-based verification of authentic JAKIM Halal logo
     year: '2015'
   KwlI1BwAAAAJ:IjCSPb-OGe4C:
@@ -14,8 +14,8 @@ papers:
     title: Glass-break detection system using deep learning algorithm
     year: '2019'
   KwlI1BwAAAAJ:Tyk-4Ss8FVUC:
-    citations: 4
-    title: Computer-Aided Diagnosis of Pulmonary Nodules from Chest X-Rays Using Rotation Forest
+    citations: 5
+    title: Computer-Aided diagnosis of pulmonary nodules from chest X-rays using rotation forest
     year: '2014'
   KwlI1BwAAAAJ:UeHWp8X0CEIC:
     citations: 10
@@ -42,10 +42,10 @@ papers:
     title: Automatic Pulmonary Nodule Detection from Radiography Using Histograms of Oriented Gradients Descriptors
     year: '2015'
   KwlI1BwAAAAJ:u-x6o8ySG0sC:
-    citations: 31
+    citations: 29
     title: Advances in automatic tuberculosis detection in chest x-ray images
     year: '2014'
   KwlI1BwAAAAJ:zYLM7Y9cAGgC:
-    citations: 23
+    citations: 21
     title: Rice grading using image processing
     year: '2015'
